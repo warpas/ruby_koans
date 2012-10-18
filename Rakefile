@@ -3,7 +3,7 @@
 
 require 'rake/clean'
 begin
-  require 'rdoc/task'
+  require 'rdoc/rdoctask'
 rescue LoadError => ex
   # No rdoc task availble.
 end
